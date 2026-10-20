@@ -1,10 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import {
-  ArrowRight,
-  ExternalLink,
-} from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { projects } from "@/data/projects";
 import Image from "next/image";
@@ -35,9 +32,11 @@ export default function ProjectsPage() {
         <div className="section-heading">
           <div>
             <SectionMark />
-            <h2>Featured Projects</h2>
+            <h2>Projects That Deliver Impac</h2>
             <p className="section-subtitle">
-              Some of the key projects I have worked on
+              Explore the web applications I've built with modern technologies,
+              thoughtful UI/UX, and a focus on performance, scalability, and
+              real-world business needs.
             </p>
           </div>
         </div>

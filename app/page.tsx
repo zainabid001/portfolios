@@ -143,11 +143,11 @@ export default function HomePage() {
           <p className="hero-description">
             Crafting modern, scalable, and high-performance web experiences with
             React.js, Next.js, Vue.js, and Node.js. I combine strong engineering
-            practices, intuitive UI development, and AI-assisted workflows to
+            practices, intuitive UI development, and <b>AI-assisted workflows</b> to
             deliver efficient, reliable, and user-focused digital solutions.
           </p>
           <div className="hero-tech">
-            {["React.js", "Next.js", "Vue.js", "Node.js", "TypeScript"].map(
+            {["React.js", "Next.js", "Vue.js", "Node.js", "TypeScript", "Angular", "LLMs"].map(
               (t) => (
                 <TechPill key={t}>{t}</TechPill>
               ),
